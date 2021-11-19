@@ -9,6 +9,8 @@ git clone https://github.com/Euronymou5/VenoM.git
 
 cd VenoM
 
+chmod +x requirements.sh
+
 python venom.py
 
 # Generacion de virus:
