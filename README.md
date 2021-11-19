@@ -11,6 +11,8 @@ cd VenoM
 
 chmod +x requirements.sh
 
+Termux: bash requirements.sh / Linux: sudo bash requirements.sh
+
 python venom.py
 
 # Generacion de virus:
