@@ -4,8 +4,6 @@ Herramienta para generar virus programada en python
 ````
 apt install git -y
 
-cd $HOME
-
 git clone https://github.com/Euronymou5/VenoM.git
 
 cd VenoM
