@@ -25,4 +25,3 @@ Linux: Scripts en shell / Android: Apk / Windows: bat y exe
 
 # Contacto
 Discord: Negro100pesos#4439
-https://discord.gg/bG7mJTTA3F / discord.gg/bG7mJTTA3F
